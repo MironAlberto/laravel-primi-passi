@@ -26,10 +26,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                                <a class="nav-link" href="{{ url('/') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/about') }}">About us</a>
+                                <a class="nav-link active" aria-current="page" href="{{ url('/about') }}">About us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/contacts') }}">Contacts</a>
@@ -43,11 +43,11 @@
             </nav>
         </header>
         <main class="mt-5">
-            <h1 class="text-center text-success">
-                Welcome to the Home Page!
+            <h1 class="text-center text-danger">
+                Welcome to the About Us Page!
             </h1>
             <h3 class="text-center text-secondary">
-                Hello Laravel, hello World!
+                Learn about Laravel!
             </h3>
         </main>
     </body>
